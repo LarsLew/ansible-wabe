@@ -14,3 +14,12 @@
       path: /tmp/temp.txt
       state: touch
       
+  - name: Create a folder
+    file:
+      path: /tmp/ordner_1
+      state: directory
+  
+  - name: Create another folder
+    file:
+      path: /tmp/ordner_2
+      state: directory  
