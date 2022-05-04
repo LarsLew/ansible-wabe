@@ -26,6 +26,6 @@
   - name: loop
     debug:
       msg: "Hello "{{ item }}""
-      loop:
+    loop:
         - Alice
         - Bob
