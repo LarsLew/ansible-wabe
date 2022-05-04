@@ -19,7 +19,7 @@
       path: /tmp/ordner_1
       state: directory
   
-  - name: Create another folder
+  - name: Create a folder
     file:
-      path: /tmp/ordner_2
+      path: /tmp/ordner_1
       state: directory  
