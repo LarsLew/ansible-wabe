@@ -5,9 +5,9 @@
 
   tasks:
 
-  - name: Hello Server
+  - name: Hello Server mit Variable
     debug:
-      msg: "Hello Woooorld!" 
+      msg: "Hello ((var_test_1))!" 
       
   - name: Create a file
     file:
