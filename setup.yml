@@ -7,11 +7,7 @@
 
   - name: Hello Server mit Variable
     debug:
-      msg: "Hello {{var_test_1}}!" 
-      
-  - name: Hello Server mit Variable
-    debug:
-      msg: "Hello {{var_test_2}} | default("default text")!"  
+      msg: "Hello {{var_test_1}}!"
       
   - name: Create a file
     file:
@@ -27,3 +23,9 @@
     file:
       path: /tmp/ordner_1
       state: directory  
+  - name: loop
+    debug:
+      msg: "Hello {{ item }}"
+      loop:
+        - Alice
+        - Bob
