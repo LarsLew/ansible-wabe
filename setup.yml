@@ -9,11 +9,8 @@
     debug:
       msg: "Hello Woooorld!" 
       
-  - name: Create an insecure file
+  - name: Create a file
     file:
       path: /tmp/temp.txt
-      owner: root
-      group: root
-      mode: '1777'
       state: touch
       
