@@ -7,7 +7,7 @@
 
   - name: Hello Server mit Variable
     debug:
-      msg: "Hello ((var_test_1))!" 
+      msg: "Hello {{var_test_1}}!" 
       
   - name: Create a file
     file:
