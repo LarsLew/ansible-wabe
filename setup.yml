@@ -25,7 +25,7 @@
       state: directory  
   - name: loop
     debug:
-      msg: "Hello "{{ item }}""
+      msg: "Hello {{ item }}"
     loop:
         - Alice
         - Bob
