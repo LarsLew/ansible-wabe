@@ -11,7 +11,7 @@
       
   - name: Hello Server mit Variable
     debug:
-      msg: "Hello {{var_test_2 | default("default text")}}!"  
+      msg: "Hello {{var_test_2}} | default("default text")!"  
       
   - name: Create a file
     file:
