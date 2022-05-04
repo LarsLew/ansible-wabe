@@ -9,3 +9,10 @@
     debug:
       msg: "Hello Woooorld!" 
       
+  - name: Create an insecure file
+    file:
+      path: /tmp/temp.txt
+      owner: root
+      group: root
+      mode: '1777'
+      
